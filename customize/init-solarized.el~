@@ -1,0 +1,5 @@
+;; initialize solarized color theme
+;; init-solarized.el
+
+(add-to-list 'load-path
+	     "~/.emacs.d/plugins/color-theme")

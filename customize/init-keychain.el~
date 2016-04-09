@@ -1,0 +1,5 @@
+;; init-keychain.el
+;;  initialize keychain-environment
+
+(require 'keychain-environment)
+(keychain-refresh-environment)
