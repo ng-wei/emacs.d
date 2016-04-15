@@ -17,6 +17,9 @@
 ;; show line number
 (global-linum-mode t)
 
+;; org mode log with time
+(setq org-log-done 'time)
+
 ;;;;;;;;;;;;;;;;;;;;
 ;; plugins config
 ;;;;;;;;;;;;;;;;;;;;
@@ -34,6 +37,7 @@
 (require 'init-ssh) ;; initialize plugin ssh
 (require 'init-keychain) ;; initialize keychain
 (require 'init-org-jekyll) ;; initialize org-jekyll
+(require 'init-dockerfile-mode) ;; initialize dockerfile mode
 
 (provide 'init)
 
