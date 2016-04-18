@@ -19,6 +19,7 @@
 
 ;; org mode log with time
 (setq org-log-done 'time)
+(global-set-key "\C-ca" 'org-agenda)
 
 ;;;;;;;;;;;;;;;;;;;;
 ;; plugins config
